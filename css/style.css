@@ -1,3 +1,6 @@
+body p{
+    font-family: 'Lato', sans-serif;
+}
 .jumbotron{
     background-image: url("../images/h_img.jpg");
     background-size: cover;
@@ -132,12 +135,12 @@ footer img{
 }
 .overlay1 p{
     position: absolute;
-    /* top: 50%;
-    left: 50%; */
-    color: white;
+    top: 20px;
+    left: 30px;
+    padding: 40px;
+    font-size: 30px;
     border-style: solid;
-    /* padding: 50px; */
-    font-size: 50px;
+    color: white;
 }
 
 .overlay2{
@@ -150,7 +153,117 @@ footer img{
 }
 .overlay2 p{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 20px;
+    left: 15px;
+    padding: 30px;
+    padding-bottom: 45px;
+    font-size: 30px;
+    border-style: solid;
+    color: white;
+}
+.overlay3{
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+   width: 200px;
+   height: 165px;
+   display: none;
+   
+}
+.overlay3 p{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 40px;
+    font-size: 30px;
+    border-style: solid;
+    color: white;
+}
+.overlay4{
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+   width: 200px;
+   height: 165px;
+   display: none;
+   
+}
+.overlay4 p{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 40px;
+    font-size: 30px;
+    border-style: solid;
+    color: white;
+}
+.overlay5{
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+   width: 200px;
+   height: 165px;
+   display: none;
+   
+}
+.overlay5 p{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 40px;
+    font-size: 30px;
+    border-style: solid;
+    color: white;
+}
+.overlay6{
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+   width: 200px;
+   height: 165px;
+   display: none;
+   
+}
+.overlay6 p{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 40px;
+    font-size: 30px;
+    border-style: solid;
+    color: white;
+}
+.overlay7{
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+   width: 200px;
+   height: 165px;
+   display: none;
+   
+}
+.overlay7 p{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    border-style: solid;
+    color: white;
+}
+.overlay8{
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+   width: 200px;
+   height: 165px;
+   display: none;
+   
+}
+.overlay8 p{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    padding: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    border-style: solid;
     color: white;
 }
