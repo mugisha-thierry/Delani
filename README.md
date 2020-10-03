@@ -1,4 +1,4 @@
-# DLANI STUDIO
+# DELANI STUDIO
 ---
 Here is the link to the akan naming webage:
 ---
