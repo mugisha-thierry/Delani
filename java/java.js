@@ -8,3 +8,15 @@ $(document).ready(function(){
     })
 })
 
+
+$(document).ready(function(){
+    $(".description").click(function(){
+        $(".descript").show()
+        $(".description").hide()
+    })
+    $(".descript").click(function(){
+        $(".description").show()
+        $(".descript").hide() 
+    })
+})
+
