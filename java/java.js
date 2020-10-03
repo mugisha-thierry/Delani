@@ -1,3 +1,4 @@
+var name = document.getElementById("name").value;
 $(document).ready(function(){
     $('.work1').hover(function(){
         $('.overlay1').toggle();
@@ -38,6 +39,6 @@ $(document).ready(function(){
     })
 })
 
-// function calc(){
-//     alert("Thank you for filling the form")
-// }
+function calc(){
+    alert("we have received your message. Thank you fro reaching out to us.")
+}
