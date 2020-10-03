@@ -102,8 +102,16 @@ input[type="text"]::placeholder {
 .flex-container > div{
     padding: 20px;
 }
-footer p{
+/* footer p{
+    padding: 20px;
     text-align:center;
+} */
+footer{
+    /* padding: 20px; */
+    text-align:center;
+}
+footer img{
+    padding: 10px;
 }
 /* @media screen and (max-width: 900px) {
     .potofolio1 {
