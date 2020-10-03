@@ -16,7 +16,7 @@ h1{
     padding-top: 30px;
 }
 #mouse{
-    padding-top: 120px; 
+    padding-top: 70px; 
 }
 .one{
     background-image: url("../images/s_image.jpg");
@@ -126,6 +126,10 @@ footer img{
         width: 100%;
     }
 } */
+/* @media screen and (max-width: 406px) and (min-width: 20px){
+    .mouse{
+        padding-bottom: 550px;
+    } */
 .overlay1{
     position: absolute;
     background-color:rgba(0,0,0,0.6);
