@@ -249,3 +249,40 @@ button{
 h6{
     text-align: center;
 }
+@media screen and (max-width: 318px) and (min-width: 94px) {
+    .design{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .development{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .product{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    button{
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 874px) and (min-width: 759px) {
+    .design{
+        padding-left: 100px;
+        padding-right: 150px;
+    }
+    .development{
+        padding-left: 100px;
+        padding-right: 150px;
+    }
+    .product{
+        padding-left: 100px;
+        padding-right: 150px;
+    }
+}
+@media screen and (max-width: 337px) and (min-width: 94px) {
+#mouse{
+    padding-top: 20px; 
+}
+}
