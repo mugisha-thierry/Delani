@@ -37,17 +37,7 @@ h1{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-/* .potofolio {
-    background-color: white;
-    padding: 20px;
-    float: left;
-    width: 25%;
-} */
-/* .third {
-    padding-left: 150px;
-    padding-right: 150px;
-} */
-.conta h3 {
+.thiry h3 {
     color: white;
     text-align: center;
     padding-top: 40px;
@@ -58,78 +48,38 @@ input[type=text] {
     margin-top: 20px;
     color: white;
 }
-#infor {
+#messa {
     margin-top: 20px;
     height: 300px;
     margin-bottom: 100px;
     background-color: transparent;
     color: white;
 }
-#infor::placeholder {
+#messa::placeholder {
     color: white;
 }
 input[type="text"]::placeholder {
     color: white; 
 }
-.conta{
+.thiry{
     background-image: url("../images/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* @media screen and (max-width: 900px) {
-    .potofolio {
-        width: 50%;
-    }
-}
-@media screen and (max-width: 600px) {
-    .potofolio {
-        width: 100%;
-    }
-} */
-.potofolio1 {
-    background-color: white;
-    padding: 20px;
-    float: left;
-    width: 25%;
-}
-/* .forth{
-    padding-left: 150px;
-    padding-right: 150px;
-} */
 .flex-container{
     display: flex;
-    /* flex-direction: row; */
     justify-content:center;
     flex-wrap: wrap;
 }
 .flex-container > div{
     padding: 20px;
 }
-/* footer p{
-    padding: 20px;
-    text-align:center;
-} */
 footer{
-    /* padding: 20px; */
     text-align:center;
 }
 footer img{
     padding: 10px;
 }
-/* @media screen and (max-width: 900px) {
-    .potofolio1 {
-        width: 50%;
-    }
-}
-@media screen and (max-width: 600px) {
-    .potofolio1 {
-        width: 100%;
-    }
-} */
-/* @media screen and (max-width: 406px) and (min-width: 20px){
-    .mouse{
-        padding-bottom: 550px;
-    } */
 .overlay1{
     position: absolute;
     background-color:rgba(0,0,0,0.6);
@@ -270,4 +220,32 @@ footer img{
     font-size: 30px;
     border-style: solid;
     color: white;
+}
+button{
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+.design{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.development{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.product{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.design-text{
+    display: none;
+}
+.development-text{
+    display: none;
+}
+.product-text{
+    display: none;
+}
+h6{
+    text-align: center;
 }
