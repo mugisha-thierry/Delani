@@ -1,6 +1,5 @@
-var name = document.getElementById("name").value;
 $(document).ready(function(){
-    $('.work1').hover(function(){
+$('.work1').hover(function(){
         $('.overlay1').toggle();
     })
 
@@ -25,18 +24,35 @@ $(document).ready(function(){
     $('.work8').hover(function(){
         $('.overlay8').toggle();
     })
+    $('.design').click(function(){
+        $('.design-text').show()
+        $('.design').hide()
+   
+    })
+    $('.design-text').click(function(){
+       $('.design').show()
+       $('.design-text').hide()  
+   });
+
+   $('.development').click(function(){
+    $('.development-text').show()
+    $('.development').hide()
+
 })
+$('.development-text').click(function(){
+   $('.development').show()
+   $('.development-text').hide()  
+});
 
+$('.product').click(function(){
+    $('.product-text').show()
+    $('.product').hide()
 
-$(document).ready(function(){
-    $(".description").click(function(){
-        $(".descript").show()
-        $(".description").hide()
-    })
-    $(".descript").click(function(){
-        $(".description").show()
-        $(".descript").hide() 
-    })
+})
+$('.product-text').click(function(){
+   $('.product').show()
+   $('.product-text').hide()  
+});
 })
 
 function calc(){
