@@ -1,53 +1,64 @@
-body p{
+body p {
     font-family: 'Lato', sans-serif;
 }
-.jumbotron{
+
+.jumbotron {
     background-image: url("../images/h_img.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
     height: 637px;
-
 }
+
 #ifoto {
     padding-top: 110px;
 }
-h1{
+
+h1 {
     padding-top: 30px;
 }
-#mouse{
-    padding-top: 70px; 
+
+#mouse {
+    padding-top: 70px;
 }
-.one{
+
+.one {
     background-image: url("../images/s_image.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
 }
-#about{
+
+#about {
     padding-bottom: 50px;
 }
-#serv{
+
+#serv {
     padding-top: 110px;
 }
-#service{
+
+#service {
     padding-bottom: 110px;
 }
-#what{
+
+#what {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .thiry h3 {
     color: white;
     text-align: center;
     padding-top: 40px;
 }
+
 input[type=text] {
     height: 30px;
     background-color: transparent;
     margin-top: 20px;
     color: white;
 }
+
 #messa {
     margin-top: 20px;
     height: 300px;
@@ -55,39 +66,48 @@ input[type=text] {
     background-color: transparent;
     color: white;
 }
+
 #messa::placeholder {
     color: white;
 }
+
 input[type="text"]::placeholder {
-    color: white; 
+    color: white;
 }
-.thiry{
+
+.thiry {
     background-image: url("../images/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
 }
-.flex-container > div{
+
+.flex-container>div {
     padding: 20px;
 }
-footer{
-    text-align:center;
+
+footer {
+    text-align: center;
 }
-footer img{
+
+footer img {
     padding: 10px;
 }
-.overlay1{
+
+.overlay1 {
     position: absolute;
-    background-color:rgba(0,0,0,0.6);
-   width: 200px;
-   height: 165px;
-   display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 165px;
+    display: none;
 }
-.overlay1 p{
+
+.overlay1 p {
     position: absolute;
     top: 20px;
     left: 30px;
@@ -97,15 +117,15 @@ footer img{
     color: white;
 }
 
-.overlay2{
+.overlay2 {
     position: absolute;
-    background-color:rgba(0,0,0,0.6);
-   width: 200px;
-   height: 165px;
-   display: none;
-   
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 165px;
+    display: none;
 }
-.overlay2 p{
+
+.overlay2 p {
     position: absolute;
     top: 20px;
     left: 15px;
@@ -115,32 +135,16 @@ footer img{
     border-style: solid;
     color: white;
 }
-.overlay3{
+
+.overlay3 {
     position: absolute;
-    background-color:rgba(0,0,0,0.6);
-   width: 200px;
-   height: 165px;
-   display: none;
-   
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 165px;
+    display: none;
 }
-.overlay3 p{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 40px;
-    font-size: 30px;
-    border-style: solid;
-    color: white;
-}
-.overlay4{
-    position: absolute;
-    background-color:rgba(0,0,0,0.6);
-   width: 200px;
-   height: 165px;
-   display: none;
-   
-}
-.overlay4 p{
+
+.overlay3 p {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -149,32 +153,16 @@ footer img{
     border-style: solid;
     color: white;
 }
-.overlay5{
+
+.overlay4 {
     position: absolute;
-    background-color:rgba(0,0,0,0.6);
-   width: 200px;
-   height: 165px;
-   display: none;
-   
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 165px;
+    display: none;
 }
-.overlay5 p{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 40px;
-    font-size: 30px;
-    border-style: solid;
-    color: white;
-}
-.overlay6{
-    position: absolute;
-    background-color:rgba(0,0,0,0.6);
-   width: 200px;
-   height: 165px;
-   display: none;
-   
-}
-.overlay6 p{
+
+.overlay4 p {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -183,15 +171,52 @@ footer img{
     border-style: solid;
     color: white;
 }
-.overlay7{
+
+.overlay5 {
     position: absolute;
-    background-color:rgba(0,0,0,0.6);
-   width: 200px;
-   height: 165px;
-   display: none;
-   
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 165px;
+    display: none;
 }
-.overlay7 p{
+
+.overlay5 p {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 40px;
+    font-size: 30px;
+    border-style: solid;
+    color: white;
+}
+
+.overlay6 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 165px;
+    display: none;
+}
+
+.overlay6 p {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 40px;
+    font-size: 30px;
+    border-style: solid;
+    color: white;
+}
+
+.overlay7 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 165px;
+    display: none;
+}
+
+.overlay7 p {
     position: absolute;
     top: 20px;
     left: 10px;
@@ -203,15 +228,16 @@ footer img{
     border-style: solid;
     color: white;
 }
-.overlay8{
+
+.overlay8 {
     position: absolute;
-    background-color:rgba(0,0,0,0.6);
-   width: 200px;
-   height: 165px;
-   display: none;
-   
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 165px;
+    display: none;
 }
-.overlay8 p{
+
+.overlay8 p {
     position: absolute;
     top: 30px;
     left: 10px;
@@ -221,68 +247,79 @@ footer img{
     border-style: solid;
     color: white;
 }
-button{
+
+button {
     margin-bottom: 50px;
     margin-left: 200px;
 }
-.design{
+
+.design {
     padding-left: 150px;
     padding-right: 150px;
 }
-.development{
+
+.development {
     padding-left: 150px;
     padding-right: 150px;
 }
-.product{
+
+.product {
     padding-left: 150px;
     padding-right: 150px;
 }
-.design-text{
+
+.design-text {
     display: none;
 }
-.development-text{
+
+.development-text {
     display: none;
 }
-.product-text{
+
+.product-text {
     display: none;
 }
-h6{
+
+h6 {
     text-align: center;
 }
+
 @media screen and (max-width: 318px) and (min-width: 94px) {
-    .design{
+    .design {
         padding-left: 50px;
         padding-right: 50px;
     }
-    .development{
+    .development {
         padding-left: 50px;
         padding-right: 50px;
     }
-    .product{
+    .product {
         padding-left: 50px;
         padding-right: 50px;
     }
-    button{
+    button {
         margin-bottom: 50px;
         margin-left: 50px;
     }
 }
+
 @media screen and (max-width: 874px) and (min-width: 759px) {
-    .design{
+    .design {
         padding-left: 100px;
         padding-right: 150px;
     }
-    .development{
+    .development {
         padding-left: 100px;
         padding-right: 150px;
     }
-    .product{
+    .product {
         padding-left: 100px;
         padding-right: 150px;
     }
 }
+
 @media screen and (max-width: 337px) and (min-width: 94px) {
-#mouse{
-    padding-top: 20px; 
-}
+    #mouse {
+        padding-top: 20px;
+    }
 }
