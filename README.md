@@ -1,6 +1,6 @@
 # DELANI STUDIO
 ---
-Here is the link to the Delani studio webage:
+Here is the link to the Delani studio webage:https://mugisha-thierry.github.io/Delani/
 ---
 ---
 ## PROJECT DISCRIPTION
